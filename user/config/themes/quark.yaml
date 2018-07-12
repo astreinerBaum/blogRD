@@ -6,7 +6,7 @@ header-animated: false
 header-dark: false
 header-transparent: true
 sticky-footer: true
-blog-page: '/home'
+blog-page: '/blog'
 spectre:
   exp: false
   icons: false

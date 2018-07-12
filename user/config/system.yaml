@@ -12,15 +12,15 @@ languages:
   supported:
     - de
     - ru
-  include_default_lang: false
+  include_default_lang: true
   translations: true
   translations_fallback: true
-  session_store_active: false
+  session_store_active: true
   http_accept_language: true
-  override_locale: false
+  override_locale: true
 home:
   alias: /blog
-  hide_in_urls: true
+  hide_in_urls: false
 pages:
   theme: rd
   order:
@@ -61,7 +61,7 @@ pages:
   last_modified: false
   etag: false
   vary_accept_encoding: false
-  redirect_default_route: false
+  redirect_default_route: true
   redirect_default_code: '302'
   redirect_trailing_slash: true
   ignore_files:
@@ -82,7 +82,7 @@ cache:
     method: file
   driver: auto
   prefix: g
-  clear_images_by_default: true
+  clear_images_by_default: false
   cli_compatibility: false
   lifetime: 604800
   gzip: false
@@ -110,7 +110,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: '1'
+  display: 1
   log: true
 debugger:
   enabled: false
@@ -119,7 +119,7 @@ debugger:
   twig: true
 images:
   default_image_quality: 85
-  cache_all: false
+  cache_all: true
   cache_perms: '0755'
   debug: false
   auto_fix_orientation: false
@@ -131,7 +131,7 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: grav-site
+  name: rd-blog
   secure: false
   httponly: true
   split: true

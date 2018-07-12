@@ -1,0 +1,9 @@
+enabled: true
+cdn: true
+popup_background_color: '#16232B'
+popup_text_color: '#ffffff'
+button_background_color: '#FFBD08'
+button_text_color: '#16232B'
+button_border_color: '#f8b600'
+position: bottom-left
+theme: classic
